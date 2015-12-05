@@ -17,6 +17,9 @@ public class Main {
         System.out.println("Podaj drugą liczbe");
         Scanner C = new Scanner(System.in);
         c = C.nextInt();
+        A.close();
+        B.close();
+        C.close();
         switch (b) {
             case "+": {
                 d = a + c;
